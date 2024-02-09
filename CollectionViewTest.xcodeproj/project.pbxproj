@@ -17,6 +17,8 @@
 		551FB7952B6962660054C482 /* CollectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551FB7942B6962660054C482 /* CollectionViewTestTests.swift */; };
 		551FB79F2B6962660054C482 /* CollectionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551FB79E2B6962660054C482 /* CollectionViewTestUITests.swift */; };
 		551FB7A12B6962660054C482 /* CollectionViewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551FB7A02B6962660054C482 /* CollectionViewTestUITestsLaunchTests.swift */; };
+		551FB7B12B6963D20054C482 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551FB7AF2B6963D20054C482 /* CustomCollectionViewCell.swift */; };
+		551FB7B22B6963D20054C482 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551FB7B02B6963D20054C482 /* CustomCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		551FB79A2B6962660054C482 /* CollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551FB79E2B6962660054C482 /* CollectionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTestUITests.swift; sourceTree = "<group>"; };
 		551FB7A02B6962660054C482 /* CollectionViewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		551FB7AF2B6963D20054C482 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		551FB7B02B6963D20054C482 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				551FB77A2B6962630054C482 /* AppDelegate.swift */,
 				551FB77C2B6962630054C482 /* SceneDelegate.swift */,
 				551FB77E2B6962630054C482 /* ViewController.swift */,
+				551FB7AF2B6963D20054C482 /* CustomCollectionViewCell.swift */,
+				551FB7B02B6963D20054C482 /* CustomCollectionViewCell.xib */,
 				551FB7802B6962630054C482 /* Main.storyboard */,
 				551FB7862B6962650054C482 /* Assets.xcassets */,
 				551FB7882B6962650054C482 /* LaunchScreen.storyboard */,
@@ -237,6 +243,7 @@
 				551FB78A2B6962650054C482 /* LaunchScreen.storyboard in Resources */,
 				551FB7872B6962650054C482 /* Assets.xcassets in Resources */,
 				551FB7822B6962630054C482 /* Main.storyboard in Resources */,
+				551FB7B22B6963D20054C482 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551FB77F2B6962630054C482 /* ViewController.swift in Sources */,
+				551FB7B12B6963D20054C482 /* CustomCollectionViewCell.swift in Sources */,
 				551FB77B2B6962630054C482 /* AppDelegate.swift in Sources */,
 				551FB7852B6962630054C482 /* CollectionViewTest.xcdatamodeld in Sources */,
 				551FB77D2B6962630054C482 /* SceneDelegate.swift in Sources */,
